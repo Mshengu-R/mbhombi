@@ -1,0 +1,46 @@
+# Git files
+.git/
+.gitignore
+.gitattributes
+.gitmodules
+
+# Dependency and package manager folders
+node_modules/
+**/node_modules/
+.pnpm-store/
+
+# Logs and debug output
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build and output folders
+build/
+dist/
+out/
+coverage/
+.cache/
+.next/
+.nuxt/
+.vite/
+tmp/
+temp/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker files
+.dockerignore
+Dockerfile*
